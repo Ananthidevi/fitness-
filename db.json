@@ -1,0 +1,16 @@
+{
+  "sets": [
+    {
+      "id": "24bc",
+      "email": "tamil@mail.com",
+      "password": "tamil123",
+      "role": ""
+    },
+    {
+      "id": "4354",
+      "email": "ananthi@gmail.com",
+      "password": "ananthi123",
+      "role": ""
+    }
+  ]
+}

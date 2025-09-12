@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.image{
+    background-image: url(https://cdn.shopify.com/s/files/1/0075/4673/2662/files/why-are-fitness-standards-higher-than-health-standards-goals.jpg) ;
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
