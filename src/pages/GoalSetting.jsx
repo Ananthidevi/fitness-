@@ -11,6 +11,7 @@ function GoalSetting() {
   const [goalDeadline, setGoalDeadline] = useState("");
 
 
+
   const handleGoalTypeChange = (e) => {
     setGoalType(e.target.value);
   };
@@ -43,10 +44,8 @@ function GoalSetting() {
     alert(`updated`);
     console.log(goal);
 
-    
 
-
-    if(goalType.trim() === ""){
+  if(goalType.trim() === ""){
 alert(`Fill the goal here`)
     }
     const newItem =document.createElement("div");
@@ -59,9 +58,17 @@ alert(`Fill the goal here`)
     console.log(goal);
     // Add logic to save goal to database or state
   };
-      
+      const handleRemoveGoal = (e) => {
+ 
+    const goal = {
+      type: goalType,
+      value: goalValue,
+      unit: goalUnit,
+      deadline: goalDeadline,
+    };
+    
 
-
+  };
 
 
         return (
@@ -138,6 +145,9 @@ alert(`Fill the goal here`)
          
     </div>
     <div id = "taskList" className=' bg-orange-300 p-3 rounded text-black w-80 text-xl ml-135'>
+<p>List Your goal here !!!</p>
+ 
+<button onClick={handleRemoveGoal}  className ='bg-red-500 ml-4 rounded p-2 mt-5'> Remove </button>
 
     </div>
   
