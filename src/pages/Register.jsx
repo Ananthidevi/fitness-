@@ -40,7 +40,7 @@ function Register() {
           <option value="admin">Admin</option>
         </select>
         <button type='submit' className='bg-green-700 cursor-pointer text-white px-4 py-2 w-full'>Register</button>
-        <p className='text-sm mt-3'>Already have an account? <Link className='text-blue-600 font-bold' to="/login">Login</Link></p>
+        <p className='text-sm mt-3'>Already have an account? <Link className='text-blue-600 font-bold' to="login">Login</Link></p>
       </form>
     </div>
   )

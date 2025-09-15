@@ -38,7 +38,7 @@ function Profile() {
                    <li className='block hover:text-yellow-300 text-xl font-semibold' href=""><Link to = "/feedback">Feedback</Link></li>
          </nav>
    </div>
- <button className='w-full bg-red-500 cursor pointer text-white font-semibold px-4 py-2'><Link to ="/login">Logout</Link></button>
+ <button className='w-full bg-red-500 cursor pointer text-white font-semibold px-4 py-2'><Link to ="/">Logout</Link></button>
 </aside>
 
 
